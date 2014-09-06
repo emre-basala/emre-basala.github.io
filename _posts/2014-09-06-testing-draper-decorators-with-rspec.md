@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Testing view decorators using Rspec and Capybara"
+title:  "Testing view decorators using RSpec and Capybara"
 date:   2014-09-06 10:15:30
 categories: rspec tdd draper decorator capybara ruby on rails rspec-matchers
 comments: true
