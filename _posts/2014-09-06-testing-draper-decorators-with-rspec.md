@@ -7,7 +7,7 @@ comments: true
 ---
 
 In any web application that follows the MVC pattern, we ideally we want to keep the view templates as simple and as logic-free as possible.
-The business logic should be handled between Models and Controllers and the view should be just be responsible to present it.
+The business logic should be handled between Models and Controllers and the view should just be responsible to present it.
 
 Here is a very basic example of a view template doing more than just showing the data.
 
