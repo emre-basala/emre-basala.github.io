@@ -81,13 +81,13 @@ require 'spec_helper'
 describe UserDecorator do
   describe "form_field_for_subscribed" do
     it "is the thank you image if the user is subscribed" do
-      subscribed_user =  FactoryGirl.create(:user, subscribed: true).decorate
+      subscribed_user = FactoryGirl.create(:user, subscribed: true).decorate
       output = subscribed_user.form_field_for_subscribed
       output.should have_element :img, src: "/images/thank_you.png"
     end
 
     it "is the submit tag if the user is not subscribed" do
-      unsubscribed_user =  FactoryGirl.create(:user, subscribed: false).decorate
+      unsubscribed_user = FactoryGirl.create(:user, subscribed: false).decorate
       output = unsubscribed_user.form_field_for_subscribed
       output.should have_element :input, type: "submit", value: "Subscribe"
     end
