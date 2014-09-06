@@ -19,7 +19,7 @@ Here is a very basic example of a view template doing more than just showing the
   = submit_tag value="Subscribe"
 ```
 
-Here we show the a "thank you" image if the user is subscribed and showing something else if the user is not. All good! But how do we test this? We can't unit test this logic in the template and we don't want to write two cucumber scenarios to cover the cases where user is subscribed and not.
+Here we show the "thank you" image if the user is subscribed and showing something else if the user is not. All good! But how do we test this? We can't unit test this logic in the template and we don't want to write two cucumber scenarios to cover the cases where user is subscribed and not.
 
 My answer is using a view decorator, so instead of putting the `if/else` in the template we can use <a href="https://github.com/drapergem/draper" target='_blank' > Draper </a> to create a user decorator and let this class deal with it.
 
