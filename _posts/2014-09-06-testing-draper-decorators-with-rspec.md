@@ -41,6 +41,11 @@ end
 ```
 
 ```
+# => app/views/user/index.html.slim
+= @user.form_fields_for_subscribed
+```
+
+```
 # => app/spec/decorators/user_decorator_spec.rb
 require 'spec_helper'
 
