@@ -13,7 +13,7 @@ here is a basic example of a view template doing more than just showing the data
 ```
 # => app/views/user/index.html.slim
 - if @user.subscribed?
-  = image_tag src="image.png"
+  = image_tag src="thank_you.png"
 - else
   = submit_tag value="Subscribe"
 ```
