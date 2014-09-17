@@ -1,5 +1,5 @@
 ---
-layout: pagegit
+layout: page
 title: About
 permalink: /about/
 ---
