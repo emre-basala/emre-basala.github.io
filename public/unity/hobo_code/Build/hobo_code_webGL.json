@@ -1,0 +1,13 @@
+{
+"companyName": "Mods & Rockers",
+"productName": "Gentleman of the Rails - The Hobo Code",
+"dataUrl": "hobo_code_webGL.data.unityweb",
+"asmCodeUrl": "hobo_code_webGL.asm.code.unityweb",
+"asmMemoryUrl": "hobo_code_webGL.asm.memory.unityweb",
+"asmFrameworkUrl": "hobo_code_webGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
